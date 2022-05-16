@@ -1,0 +1,597 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1652703832750322, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652703832751664, "dur": 44074, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652703832795924, "dur": 43836, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652703832839784, "dur": 371131, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652703833210916, "dur": 8105710, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652703841316644, "dur": 9751, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652703858875284, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652703858875527, "dur": 16930, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652703858892461, "dur": 48776, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652703858941239, "dur": 311823, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652703859253064, "dur": 298939, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652703859552005, "dur": 10031, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652703859562828, "dur": 30, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1652703859094147, "dur": 140513, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1652703859095198, "dur": 43975, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1652703859211914, "dur": 5587, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1652703859217505, "dur": 17139, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1652703859218239, "dur": 9256, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1652703859239436, "dur": 1241, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1652703859238692, "dur": 2006, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652703859562974, "dur": 408, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1652703859295311, "dur":3041, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652703859298358, "dur":107, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1652703859298505, "dur":24, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1652703859298530, "dur":478, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1652703859299030, "dur":946, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652703859299976, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652703859517171, "dur":149, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652703859517320, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652703859517345, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652703859517349, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652703859517356, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652703859517358, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652703859517364, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652703859517366, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652703859517371, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652703859517374, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652703859517379, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652703859517381, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652703859517387, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652703859517389, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652703859517395, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652703859517397, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652703859517405, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652703859517414, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652703859517440, "dur":5692, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1652703859299601, "dur":579, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652703859300180, "dur":6109, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652703859306289, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1652703859306471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652703859310186, "dur":2534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1652703859312777, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1652703859312893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652703859312962, "dur":4206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1652703859317254, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1652703859317369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652703859317376, "dur":9466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1652703859327137, "dur":6037, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859333201, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652703859333294, "dur":1915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859335258, "dur":6714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859341978, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652703859341988, "dur":1678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859343716, "dur":6181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859349901, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652703859349908, "dur":1506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859351505, "dur":5782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859357293, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652703859357302, "dur":1465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859358823, "dur":6097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859364922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652703859364927, "dur":2057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859367029, "dur":5087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859372119, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652703859372128, "dur":2331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859374510, "dur":5481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859379994, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652703859380001, "dur":1771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859381823, "dur":6259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859388085, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652703859388091, "dur":1806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859389965, "dur":6104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859396072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652703859396080, "dur":1623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859397786, "dur":5210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859403021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652703859403030, "dur":3758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859406847, "dur":6342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859413194, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652703859413206, "dur":5201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859418459, "dur":5677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859424142, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652703859424151, "dur":4279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859428484, "dur":6715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.XR.Interaction.Toolkit.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859435203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652703859435212, "dur":7023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.XR.Interaction.Toolkit.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859442288, "dur":6312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859448603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652703859448610, "dur":1987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859450652, "dur":4414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859455071, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652703859455081, "dur":1659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859456812, "dur":3374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859460191, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652703859460200, "dur":1491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859461743, "dur":7027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859468775, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652703859468784, "dur":2494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859471405, "dur":6255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859477666, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652703859477676, "dur":1723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859479446, "dur":8085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859487538, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652703859487550, "dur":2076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859489689, "dur":6257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859495954, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652703859495964, "dur":1613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652703859497627, "dur":1210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/UnitySubsystems/MicrosoftOpenXRPlugin/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":1, "ts":1652703859498863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652703859501792, "dur":1350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/UnitySubsystems/MicrosoftOpenXRPlugin/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":1, "ts":1652703859503192, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1652703859503241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652703859503248, "dur":3446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1652703859506740, "dur":10452, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652703859299426, "dur":593, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652703859300019, "dur":6245, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652703859306264, "dur":5417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1652703859311685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652703859311699, "dur":1692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1652703859313453, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1652703859313614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652703859313691, "dur":2587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1652703859316323, "dur":700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1652703859317026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652703859317033, "dur":3139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1652703859320222, "dur":6543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1652703859326769, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652703859326777, "dur":3122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1652703859329959, "dur":5980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859335945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652703859335954, "dur":2627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859338623, "dur":5394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859344021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652703859344052, "dur":1389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859345497, "dur":5393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859350895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652703859350965, "dur":3210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859354239, "dur":6169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859360414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652703859360422, "dur":2902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859363483, "dur":5110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859368598, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652703859368608, "dur":1423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859370094, "dur":5365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859375462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652703859375468, "dur":1843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859377369, "dur":5578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859382951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652703859382960, "dur":2007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859385016, "dur":5241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859390260, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652703859390269, "dur":3787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859394252, "dur":5519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859399812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652703859399819, "dur":1714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859401587, "dur":8557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859410149, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652703859410158, "dur":4911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859415118, "dur":6259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859421380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652703859421386, "dur":4091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859425529, "dur":5427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859430982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652703859430991, "dur":5016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859436054, "dur":7227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859443285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652703859443293, "dur":6443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859449858, "dur":4443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859454307, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652703859454317, "dur":1525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859455907, "dur":4325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859460236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652703859460264, "dur":1582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859461898, "dur":774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859462676, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652703859462686, "dur":1702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859464440, "dur":6832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859471275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652703859471284, "dur":2355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859473690, "dur":10984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859484683, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652703859484695, "dur":5527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859490283, "dur":4461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859494750, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652703859494759, "dur":1474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652703859496275, "dur":1176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":2, "ts":1652703859497457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652703859498187, "dur":1602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":2, "ts":1652703859499875, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1652703859499935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652703859499942, "dur":2670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1652703859502665, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1652703859502748, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652703859502754, "dur":1433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1652703859504235, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1652703859504281, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652703859504287, "dur":3530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1652703859507850, "dur":9330, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652703859299507, "dur":606, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652703859300113, "dur":6139, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652703859306253, "dur":4826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1652703859311085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652703859311283, "dur":1540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1652703859312876, "dur":4388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1652703859317268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652703859317275, "dur":2062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1652703859319394, "dur":159885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652703859479287, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652703859479298, "dur":37806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652703859517143, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1652703859517145, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652703859299478, "dur":602, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652703859300080, "dur":6208, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652703859306289, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1652703859306478, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652703859309882, "dur":8669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1652703859318598, "dur":54468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652703859373071, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652703859373163, "dur":14911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652703859388128, "dur":6070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652703859394203, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652703859394209, "dur":3336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652703859397598, "dur":5007, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652703859402610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652703859402619, "dur":2093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652703859404766, "dur":6115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652703859410886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652703859410894, "dur":3789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652703859414746, "dur":6516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652703859421265, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652703859421273, "dur":4549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652703859425880, "dur":5069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652703859430978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652703859430985, "dur":2870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652703859433904, "dur":6408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.XR.ARFoundation.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652703859440358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652703859440460, "dur":5052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.XR.ARFoundation.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652703859445579, "dur":4177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652703859449789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652703859449800, "dur":2779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652703859452630, "dur":4097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652703859456731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652703859456738, "dur":2245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652703859459035, "dur":3667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652703859462705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652703859462711, "dur":4454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652703859467217, "dur":5392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652703859472616, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652703859472638, "dur":2101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652703859474786, "dur":8283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652703859483074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652703859483084, "dur":4542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652703859487674, "dur":5246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/ControllerSample.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652703859492927, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652703859492938, "dur":1556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/ControllerSample.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652703859494544, "dur":3312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Plugins/x86_64/UnityOpenXR.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652703859497862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652703859498018, "dur":1797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Plugins/x86_64/UnityOpenXR.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652703859499867, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1652703859499918, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652703859499925, "dur":2949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1652703859502931, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1652703859502990, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652703859502997, "dur":2769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1652703859505814, "dur":11354, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652703859299591, "dur":544, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652703859300136, "dur":6112, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652703859306252, "dur":5072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1652703859311327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652703859311625, "dur":1309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1652703859312988, "dur":3054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1652703859316048, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652703859316059, "dur":1801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1652703859317914, "dur":4047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859321966, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652703859322312, "dur":2382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859324745, "dur":5657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859330408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652703859330793, "dur":1378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859332219, "dur":5710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859337937, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652703859337948, "dur":1536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859339531, "dur":5860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859345397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652703859345408, "dur":1641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859347303, "dur":5845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859353152, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652703859353160, "dur":2136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859355356, "dur":6062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859361422, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652703859361430, "dur":1591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859363077, "dur":5561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859368644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652703859368653, "dur":1374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859370081, "dur":5373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859375459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652703859375468, "dur":2030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859377546, "dur":5614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859383171, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652703859383177, "dur":1738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859384962, "dur":5335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859390305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652703859390312, "dur":3966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859394327, "dur":5475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859399807, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652703859399819, "dur":1566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859401436, "dur":5731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859407171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652703859407178, "dur":1613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859408837, "dur":4328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859413194, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652703859413206, "dur":7159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859420419, "dur":4562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859424985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652703859424993, "dur":6380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859431452, "dur":8222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.XR.CoreUtils.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859439677, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652703859439684, "dur":4614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.XR.CoreUtils.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859444353, "dur":5836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859450192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652703859450198, "dur":3009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859453287, "dur":5716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859459007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652703859459015, "dur":1728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859460800, "dur":7002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859467806, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652703859467816, "dur":2173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859470046, "dur":380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859470432, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652703859470442, "dur":3202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859473691, "dur":5938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859479633, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652703859479639, "dur":1812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859481502, "dur":5565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859487074, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652703859487086, "dur":1900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859489033, "dur":5705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859494741, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652703859494752, "dur":1473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652703859496283, "dur":1168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/UnitySubsystems/OculusXRPlugin/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":5, "ts":1652703859497457, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652703859498317, "dur":1411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/UnitySubsystems/OculusXRPlugin/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":5, "ts":1652703859499782, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1652703859499835, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652703859499906, "dur":5167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1652703859505136, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1652703859505459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652703859505469, "dur":1304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1652703859506820, "dur":10366, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652703859299726, "dur":498, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652703859300224, "dur":6039, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652703859306264, "dur":1529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1652703859307796, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652703859309864, "dur":3006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1652703859312921, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1652703859313027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652703859313657, "dur":2572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1652703859316274, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1652703859316382, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652703859316391, "dur":8911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1652703859325370, "dur":4921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859330294, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652703859330748, "dur":1551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859332350, "dur":5757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859338111, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652703859338120, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859339530, "dur":5305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859344840, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652703859344849, "dur":1469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859346376, "dur":5378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859351758, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652703859351766, "dur":3270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859355103, "dur":8941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859364048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652703859364057, "dur":2645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859366758, "dur":5779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859372540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652703859372547, "dur":2304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859374897, "dur":5687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859380590, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652703859380599, "dur":2560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859383212, "dur":6100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859389317, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652703859389352, "dur":3860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859393264, "dur":6048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859399318, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652703859399331, "dur":2078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859401457, "dur":5513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859406974, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652703859406984, "dur":1600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859408636, "dur":5142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859413785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652703859413796, "dur":10527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859424383, "dur":5405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859429793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652703859429802, "dur":4396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859434247, "dur":5127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859439379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652703859439386, "dur":5642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859445189, "dur":3356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859448550, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652703859448560, "dur":1884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859450492, "dur":3810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859454307, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652703859454317, "dur":1519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859455889, "dur":4325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859460217, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652703859460225, "dur":1739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859462010, "dur":7890, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859469904, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652703859469914, "dur":3189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859473173, "dur":2927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859476105, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652703859476116, "dur":6561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859482724, "dur":10727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859493472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652703859493478, "dur":7116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652703859500677, "dur":328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1652703859501010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652703859501042, "dur":2247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1652703859503343, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1652703859503398, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652703859503405, "dur":2048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1652703859505501, "dur":11668, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652703859299808, "dur":458, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652703859300266, "dur":5986, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652703859306252, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1652703859306470, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652703859310141, "dur":2688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1652703859312883, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1652703859313052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652703859313060, "dur":9350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1652703859322460, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1652703859322574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652703859322958, "dur":17648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1652703859340658, "dur":5493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859346155, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652703859346163, "dur":1594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859347803, "dur":6643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859354452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652703859354463, "dur":1563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859356074, "dur":5222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859361302, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652703859361313, "dur":1693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859363060, "dur":7069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859370132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652703859370140, "dur":1764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859371955, "dur":6201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859378162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652703859378171, "dur":1440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859379666, "dur":6273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859385944, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652703859385952, "dur":2431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859388439, "dur":5604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859394046, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652703859394055, "dur":1641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859395745, "dur":5602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859401354, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652703859401364, "dur":1662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859403089, "dur":5893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859408986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652703859408994, "dur":5242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859414291, "dur":7507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859421802, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652703859421832, "dur":3775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859425693, "dur":4975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.XR.Oculus.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859430674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652703859430683, "dur":2061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.XR.Oculus.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859432791, "dur":6192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.XR.ARSubsystems.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859438989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652703859438998, "dur":3891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.XR.ARSubsystems.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859442968, "dur":7016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859449989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652703859449998, "dur":2814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859452863, "dur":3610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859456477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652703859456484, "dur":1719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859458255, "dur":6845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859465106, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652703859465119, "dur":2786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859467959, "dur":6382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859474345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652703859474355, "dur":2379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859476784, "dur":5457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859482252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652703859482267, "dur":4138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859486509, "dur":6920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Microsoft.MixedReality.OpenXR.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859493433, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652703859493441, "dur":1772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Microsoft.MixedReality.OpenXR.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859495272, "dur":6907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Plugins/x86_64/openxr_loader.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859502202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652703859502212, "dur":9258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Plugins/x86_64/openxr_loader.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652703859511508, "dur":5666, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652703859299976, "dur":15, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652703859299991, "dur":6242, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652703859306252, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1652703859306281, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652703859308134, "dur":658, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1652703859308795, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1652703859308880, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652703859309144, "dur":2625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1652703859311771, "dur":2850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1652703859314625, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652703859314634, "dur":1572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1652703859316252, "dur":4016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1652703859320270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652703859320277, "dur":1751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1652703859322083, "dur":7935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice.exe" }}
+,{ "pid":12345, "tid":8, "ts":1652703859330022, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652703859330031, "dur":8615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice.exe" }}
+,{ "pid":12345, "tid":8, "ts":1652703859338700, "dur":5523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859344227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652703859344234, "dur":1517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859345804, "dur":5086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859350895, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652703859350968, "dur":1523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859352529, "dur":5487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859358022, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652703859358030, "dur":1371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859359453, "dur":5375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859364831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652703859364837, "dur":1970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859366866, "dur":5351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859372220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652703859372226, "dur":2400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859374687, "dur":5913, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859380603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652703859380609, "dur":1943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859382611, "dur":5216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859387832, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652703859387842, "dur":1814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859389706, "dur":5522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859395236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652703859395245, "dur":1580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859396876, "dur":5791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859402670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652703859402677, "dur":2661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859405387, "dur":5494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859410886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652703859410894, "dur":3780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859414726, "dur":6428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859421158, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652703859421178, "dur":4203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859425436, "dur":5417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859430856, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652703859430864, "dur":3984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859434902, "dur":6633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859441541, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652703859441551, "dur":3275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859444882, "dur":3663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859448550, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652703859448560, "dur":2105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859450718, "dur":5655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859456378, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652703859456387, "dur":1864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859458329, "dur":6009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859464347, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652703859464361, "dur":2469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859466880, "dur":5819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859472701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652703859472706, "dur":2055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859474817, "dur":6743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859481565, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652703859481576, "dur":1535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859483163, "dur":7560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859490731, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652703859490744, "dur":2231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859493039, "dur":3128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Plugins/x86_64/MicrosoftOpenXRPlugin.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859496173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652703859497031, "dur":2059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/Plugins/x86_64/MicrosoftOpenXRPlugin.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652703859499150, "dur":878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1652703859500032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652703859500387, "dur":1308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1652703859501747, "dur":1515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1652703859503265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652703859503270, "dur":1909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FiercePC/Downloads/Disseration Build/Practice_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1652703859505230, "dur":11937, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652703859527668, "dur":1773, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1652703859563440, "dur": 864, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652703859562803, "dur": 1524, "ph": "X", "name": "Write chrome-trace events", "args": {} },
