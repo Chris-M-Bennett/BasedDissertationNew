@@ -18,7 +18,6 @@ public class HandPresence : MonoBehaviour
     {
         List<InputDevice> devices = new List<InputDevice>();
         InputDevices.GetDevicesWithCharacteristics(controllerChars, devices);
-
         if (devices.Count > 0)
         {
             _targetDevice = devices[0];
